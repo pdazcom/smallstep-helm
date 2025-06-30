@@ -70,6 +70,7 @@ podExtraLabels: {}
 # inject contains values to be injected into config maps and secrets
 inject:
   enabled: false
+  annotations: []
   config:
     files:
       ca.json:
