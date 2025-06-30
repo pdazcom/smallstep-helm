@@ -88,6 +88,7 @@ ca:
   provisioner:
     name: ""
     password: ""
+    secretAnnotations: {}
   # certs is the configmap in yaml that should contain the CA root certificate.
   certs:
     root_ca.crt: |-
